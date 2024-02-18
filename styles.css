@@ -1,15 +1,11 @@
-/* styles.css */
-
 body {
-  background-image: url("smccbg.jpg"); /* Replace 'your-background-image.jpg' with the path to your image file */
-  background-size: cover; /* Cover the entire viewport with the background image */
-  background-position: center; /* Center the background image */
-  background-repeat: repeat; /* Do not repeat the background image */
-  color: #fff; /* Set default text color to white for better readability on the background */
+  background-image: url("smccbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  color: #fff;
   backdrop-filter: blur(10px);
 }
-
-/* Add the rest of your styles below */
 
 .title {
   font-family: "Times New Roman", Times, serif;
@@ -51,29 +47,28 @@ img {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #171278;
 }
-/* styles.css */
 
 #courses {
-  text-align: center; /* Center the content within the section */
+  text-align: center;
 }
 
 #courses ul {
-  list-style: none; /* Remove default list style (dots) */
-  padding: 0; /* Remove default padding */
+  list-style: none;
+  padding: 0;
 }
 
 #courses li {
-  margin-bottom: 10px; /* Add some spacing between list items */
-  text-align: justify; /* Justify the text within list items */
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 #courses li a {
-  text-decoration: none; /* Remove underlines from links */
-  font-weight: bold; /* Make the text bold */
-  color: #333; /* Set link color */
-  display: block; /* Make the links block-level to center them horizontally */
-  margin: auto 50px auto auto; /* Center the links horizontally within list items */
-  max-width: 80%; /* Set a maximum width for better readability */
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin: auto 50px auto auto;
+  max-width: 80%;
 }
 
 #services h2 {
@@ -82,22 +77,22 @@ img {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 #services ul {
-  list-style: none; /* Remove default list style (dots) */
-  padding: 0; /* Remove default padding */
+  list-style: none;
+  padding: 0;
 }
 
 #services li {
-  margin-bottom: 10px; /* Add some spacing between list items */
-  text-align: justify; /* Justify the text within list items */
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 #services li {
-  text-decoration: none; /* Remove underlines from links */
-  font-weight: bold; /* Make the text bold */
-  color: #333; /* Set link color */
-  display: block; /* Make the links block-level to center them horizontally */
-  margin: auto 50px auto auto; /* Center the links horizontally within list items */
-  max-width: 80%; /* Set a maximum width for better readability */
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin: auto 50px auto auto;
+  max-width: 80%;
 }
 #contact h2 {
   text-align: center;
